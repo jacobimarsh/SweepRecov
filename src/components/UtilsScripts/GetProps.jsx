@@ -75,7 +75,7 @@ const GetProps = (data) => {
   const yScale = scaleLinear().domain([0, 0.013]).range([innerHeight, 0]);
   const colorScale = scaleOrdinal()
     .domain(uniqueScaling)
-    .range(["#d62728", "#ff7f0e", "#2ca02c", "#1f77b4", "#9467bd"]);
+    .range(["#9467bd", "#1f77b4", "#2ca02c", "#ff7f0e" , "#d62728"]);
 
   // Prepare props for each subcomponent
   const controlsProps = {
