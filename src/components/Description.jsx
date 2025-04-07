@@ -11,7 +11,7 @@ const Description = () => {
       </div>
       <div className="relative z-10">
         <h2 className="text-xl font-bold">
-          Figure 5. Selective sweep dynamics for simulated populations with rescaling
+          Figure 6. Selective sweep dynamics for simulated populations with rescaling
         </h2>
         <h3 className="my-5">[Marsh, Kaushik and Johri 2025]</h3>
         <p>
