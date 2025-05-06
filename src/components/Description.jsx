@@ -13,7 +13,11 @@ const Description = () => {
         <h2 className="text-xl font-bold">
           Figure 6. Selective sweep dynamics for simulated populations with rescaling
         </h2>
-        <h3 className="my-5">[Marsh, Kaushik and Johri 2025]</h3>
+        <h3 className="my-5">
+          <a href="https://doi.org/10.1101/2025.04.24.650500" target="_blank" rel="noopener noreferrer">
+            [Marsh, Kaushik and Johri 2025]
+          </a>
+        </h3>
         <p>
           Interactive plot of nucleotide diversity observed for 100 bp bins in a strictly neutral region as a function of distance from a single moderately strong beneficial mutation of strength <em>2Ns</em> = 100 that reaches fixation from simulations with different scaling factors. The line represents the expected diversity calculated post-fixation (see Eq. 6).
         </p>
